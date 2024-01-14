@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import NavBar from './pages/NavBar'
+import NavBar from './NavBar'
 
 //https://www.youtube.com/watch?v=RY6B7JSBRRg&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=2
 
