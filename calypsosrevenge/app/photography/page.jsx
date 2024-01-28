@@ -1,9 +1,12 @@
 'use client'
 import React, {Component} from "react";
+import NavBar from "../NavBar";
+// import { Navbar } from "react-bootstrap";
 // import { CodeIcon } from "@heroicons/react/solid";
 
 export default function Photography () {
         return(
+            <div>
             <section id="photography" className="text-gray-400 bg-gray-900 body-font">
                 <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                     <div className="flex flex-col w-full mb-20">
@@ -44,6 +47,7 @@ export default function Photography () {
                     </div>
                 </div>
             </section>
+            </div>
         )
 }
 
