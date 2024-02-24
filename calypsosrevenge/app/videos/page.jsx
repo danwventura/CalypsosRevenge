@@ -1,5 +1,10 @@
 'use client'
 import React, {Component} from "react";
+import Video from 'next-video';
+import stillIntoYou from '@/videos/Still Into You Aug 2023 Clip_Trim.mp4';
+import kashmir from '@/videos/Kashmir Aug 2023 Clip.mp4';
+import mansWorld from '@/videos/Calypsos Revenge - Its A Mans World.mp4';
+import watermelonSugarHigh from '@/videos/WatermelonSugarHigh.mp4';
 
 export default function Videos () {
         return(
@@ -18,8 +23,12 @@ export default function Videos () {
                         </p>
                     </div>
                     <div className="flex flex-wrap -m-4">
+                        <Video src={stillIntoYou} />
+                        <Video src={kashmir} />
+                        <Video src={mansWorld} />
+                        <Video src={watermelonSugarHigh} />
                         {/* {project.map(()=> ( */}
-                            <a href="" key="" className="sm:w-1/2 w-100 p-4">
+                            {/* <a href="" key="" className="sm:w-1/2 w-100 p-4">
                                 <div className="flex relative">
                                     <img
                                         alt="gallery"
@@ -38,7 +47,7 @@ export default function Videos () {
                                         fuga dolore.</p>
                                     </div>
                                 </div>
-                            </a>
+                            </a> */}
                         {/* ))} */}
                     </div>
                 </div>
