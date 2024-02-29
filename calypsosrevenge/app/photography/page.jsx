@@ -30,12 +30,12 @@ export default function Photography () {
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                            "Subtitle 1"
+                                            Subtitle 1
                                         </h2>
                                         <h1 className="title-font text-large font-medium text-white mb-3">
-                                            "Title 1"
+                                            Title 1
                                         </h1>
-                                        <p>"Description 1"</p>
+                                        <p>Description 1</p>
                                     </div>
                                 </div>
                             </a>
@@ -48,12 +48,12 @@ export default function Photography () {
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                            "Subtitle 2"
+                                            Subtitle 2
                                         </h2>
                                         <h1 className="title-font text-large font-medium text-white mb-3">
-                                            "Title 2"
+                                            Title 2
                                         </h1>
-                                        <p>"Description 2"</p>
+                                        <p>Description 2</p>
                                     </div>
                                 </div>
                             </a>
@@ -66,12 +66,12 @@ export default function Photography () {
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                            "Subtitle 3"
+                                            Subtitle 3
                                         </h2>
                                         <h1 className="title-font text-large font-medium text-white mb-3">
-                                            "Title 3"
+                                            Title 3
                                         </h1>
-                                        <p>"Description 3"</p>
+                                        <p>Description 3</p>
                                     </div>
                                 </div>
                             </a>
@@ -84,12 +84,12 @@ export default function Photography () {
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                            "Subtitle 4"
+                                            Subtitle 4
                                         </h2>
                                         <h1 className="title-font text-large font-medium text-white mb-3">
-                                            "Title 4"
+                                            Title 4
                                         </h1>
-                                        <p>"Description 4"</p>
+                                        <p>Description 4</p>
                                     </div>
                                 </div>
                             </a>
