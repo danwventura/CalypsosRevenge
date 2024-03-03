@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'calypsoBlue': '#132227',
+        'calypsoSky': '#1A5769',
+        'calypsoMain': '#122126',
+        'calypsoDark': '#122428',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

@@ -3,7 +3,7 @@ import React, {Component} from "react";
 
 export default function Booking () {
         return(
-            <section id="booking" className="relative">
+            <section id="booking" className="relative bg-gradient-to-r from-calypsoBlue to-calypsoSky h-screen">
                 <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="lg:w-1/2 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe
@@ -23,20 +23,6 @@ export default function Booking () {
                                     Slower Lower
                                 </p>
                             </div>
-                            {/* <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                                <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                                    EMAIL
-                                </h2>
-                                <a className="text-indigo-400 leading-relaxed">
-                                    lv@music101.com
-                                </a>
-                                <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                                    PHONE
-                                </h2>
-                                <p className="text-indigo-400 leading-relaxed">
-                                    123-456-7890
-                                </p>
-                            </div> */}
                         </div>
                     </div>
                     <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
