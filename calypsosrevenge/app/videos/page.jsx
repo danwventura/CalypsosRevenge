@@ -8,7 +8,7 @@ import watermelonSugarHigh from '@/videos/WatermelonSugarHigh.mp4';
 
 export default function Videos () {
         return(
-            <section id="videos" className="text-gray-400 bg-gray-900 body-font">
+            <section id="videos" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font">
                 <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                     <div className="flex flex-col w-full mb-20">
                         {/*Fix this*/}

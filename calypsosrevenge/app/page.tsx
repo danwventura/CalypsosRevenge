@@ -11,7 +11,7 @@ import Booking from './booking/page'
 export default function Home() {
   
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font">
       <NavBar />
       <About />
       <Gallery />
