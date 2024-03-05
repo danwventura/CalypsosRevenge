@@ -43,12 +43,22 @@ export default function Booking () {
                                     Link to Meta
                                 </a>
                             </div>
-                            <h2 className="title-font font-semibold text-white tracking-widest text-xl">
-                                Instagram
-                            </h2>
-                            <a className="text-indigo-400 leading-relaxed text-xl">
-                                Link to Instagram
-                            </a>
+                            <div className="mb-10">
+                                <h2 className="title-font font-semibold text-white tracking-widest text-xl">
+                                    Instagram
+                                </h2>
+                                <a className="text-indigo-400 leading-relaxed text-xl">
+                                    Link to Instagram
+                                </a>
+                            </div>
+                            <div className="mb-10">
+                                <h2 className="title-font font-semibold text-white tracking-widest text-xl">
+                                    Youtube
+                                </h2>
+                                <a className="text-indigo-400 leading-relaxed text-xl">
+                                    Link to Youtube
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
