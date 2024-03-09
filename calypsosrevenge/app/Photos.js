@@ -3,24 +3,24 @@ export const photos = [
         title: "duo1",
         subtitle: "subtitle text 1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/img/duo1.PNG",
+        location: "/img/duo1.PNG",
     },
     {
-        title: "duo1",
+        title: "duo2",
         subtitle: "subtitle text 1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/img/duo2.jpg",
+        location: "/img/duo2.png",
     },
     {
-        title: "duo1",
+        title: "duo4",
         subtitle: "subtitle text 1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/img/duo3.jpg",
-    },
-    {
-        title: "duo1",
-        subtitle: "subtitle text 1",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/img/solo1.JPEG",
+        location: "/img/duo4.jpg",
     }
+    // {
+    //     title: "duo1",
+    //     subtitle: "subtitle text 1",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    //     location: "/img/solo1.JPEG",
+    // }
 ]

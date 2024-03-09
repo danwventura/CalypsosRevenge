@@ -1,16 +1,31 @@
 'use client'
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 import NavBar from "../NavBar";
-import {duo1} from "../Photos";
+import {photos} from "../Photos";
+import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
+import { RxDotFilled } from "react-icons/rx";
+
+//Carousel
+//15:54 https://www.youtube.com/watch?v=tXlZCW26bto
 
 export default function Photography () {
+        const [currentIndex, setCurrentIndex] = useState(0);
+        
+        const prevPhoto = () => {
+            const isFirstPhoto = currentIndex === 0;
+            const newIndex = isFirstPhoto ? photos.length - 1 : currentIndex - 1;
+            setCurrentIndex(newIndex);
+        }
+        const nextPhoto = () => {
+            const isLastPhoto = currentIndex === photos.length - 1;
+            const newIndex = isLastPhoto ? 0 : currentIndex + 1;
+            setCurrentIndex(newIndex);
+        }
         return(
             <div>
             <section id="photography" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font h-screen">
-                <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-                    <div className="flex flex-col w-full mb-20">
-                        {/*Fix this*/}
-                        {/* <CodeIcon className="mx-auto inline-block w-10 mb-4"/> */}
+                <div className="container px-5 py-5 mx-auto text-center lg:px-40">
+                    <div className="flex flex-col w-full mb-4">
                         <h1 className="sm:txt-4xl text-3xl font-medium title-font mb-4 text-white">
                             Live Vibes
                         </h1>
@@ -20,12 +35,31 @@ export default function Photography () {
                             fuga dolore.
                         </p>
                     </div>
-                    <div className="flex flex-wrap h-full">
+                    <div className="max-w-[800px] h-[700px] w-full m-auto py-16 px-4 relative group">
+                        <div style={{backgroundImage: `url(${photos[currentIndex].location})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
+                        {/*Left Arrow*/}
+                        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+                            <BsChevronCompactLeft onClick={prevPhoto}/>
+                        </div>
+                        {/*Right Arrow*/}
+                        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+                            <BsChevronCompactRight onClick={nextPhoto}/>
+                        </div>
+                        <div className="flex top-4 justify-center py-2 object-top">
+                            {photos.map((photo, photoIndex) => {
+                                <div className="text-2xl cursor-pointer">
+                                    <RxDotFilled />
+                                </div>
+                            })}
+                        </div>
+                    </div>
+
+                    {/* <div className="flex flex-wrap h-full">
                             <a href="/img/duo1.PNG" className="lg:w-1/2 w-100 p-8">
                                 <div className="flex relative">
                                     <img 
                                         alt="gallery" 
-                                        className="absolute inset-0 w-full h-full"
+                                        className="inset-0 object-scale-down"
                                         src="/img/duo1.PNG"
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 bg-gradient-to-r from-calypsoBlue to-calypsoSky bg-gray-900 opacity-0 hover:opacity-100">
@@ -43,7 +77,7 @@ export default function Photography () {
                                 <div className="flex relative">
                                     <img 
                                         alt="gallery" 
-                                        className="absolute inset-0 w-full h-full"
+                                        className="inset-0 object-scale-down"
                                         src="/img/duo2.jpg"
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 bg-gradient-to-r from-calypsoBlue to-calypsoSky bg-gray-900 opacity-0 hover:opacity-100">
@@ -61,7 +95,7 @@ export default function Photography () {
                                 <div className="flex relative">
                                     <img 
                                         alt="gallery" 
-                                        className="absolute inset-0 w-full h-full"
+                                        className="inset-0 object-scale-down"
                                         src="/img/duo3.jpg"
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 bg-gradient-to-r from-calypsoBlue to-calypsoSky bg-gray-900 opacity-0 hover:opacity-100">
@@ -79,7 +113,7 @@ export default function Photography () {
                                 <div className="flex relative">
                                     <img 
                                         alt="gallery" 
-                                        className="absolute inset-0 w-full h-full"
+                                        className="inset-0 object-scale-down"
                                         src="/img/solo1.JPEG"
                                      />
                                     <div className="px-8 py-10 relative z-10 w-full border-4 bg-gradient-to-r from-calypsoBlue to-calypsoSky bg-gray-900 opacity-0 hover:opacity-100">
@@ -93,7 +127,7 @@ export default function Photography () {
                                     </div>
                                 </div>
                             </a>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             </div>
