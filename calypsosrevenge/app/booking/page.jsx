@@ -20,7 +20,7 @@ export default function Booking () {
                                     LOCATIONS
                                 </h2>
                                 <p className="text-indigo-400 mt-1">
-                                    Slower Lower
+                                    Delaware
                                 </p>
                             </div>
                         </div>
@@ -32,31 +32,23 @@ export default function Booking () {
                                     EMAIL
                                 </h2>
                                 <a className="text-indigo-400 leading-relaxed text-xl">
-                                    lv@music101.com
+                                    laurenannaventura@gmail.com
                                 </a>
                             </div>
-                            <div className="mb-10">
+                            <div className="mb-10 mt-20">
                                 <h2 className="title-font font-semibold text-white tracking-widest text-xl">
-                                    META
+                                    Facebook
                                 </h2>
-                                <a className="text-indigo-400 leading-relaxed text-xl">
-                                    Link to Meta
+                                <a href="https://www.facebook.com/search/top?q=calypso%E2%80%99s%20revenge" className="text-indigo-400 leading-relaxed text-xl">
+                                    Calypso's Revenge
                                 </a>
                             </div>
-                            <div className="mb-10">
-                                <h2 className="title-font font-semibold text-white tracking-widest text-xl">
-                                    Instagram
-                                </h2>
-                                <a className="text-indigo-400 leading-relaxed text-xl">
-                                    Link to Instagram
-                                </a>
-                            </div>
-                            <div className="mb-10">
+                            <div className="mb-10 mt-20">
                                 <h2 className="title-font font-semibold text-white tracking-widest text-xl">
                                     Youtube
                                 </h2>
-                                <a className="text-indigo-400 leading-relaxed text-xl">
-                                    Link to Youtube
+                                <a href="https://www.youtube.com/@calypsosrevenge" className="text-indigo-400 leading-relaxed text-xl">
+                                    https://www.youtube.com/@calypsosrevenge
                                 </a>
                             </div>
                         </div>
