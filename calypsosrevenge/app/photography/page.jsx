@@ -29,11 +29,11 @@ export default function Photography () {
                         <h1 className="sm:txt-4xl text-3xl font-medium title-font mb-4 text-white">
                             Live Vibes
                         </h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-based">
+                        {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-based">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
                             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
                             fuga dolore.
-                        </p>
+                        </p> */}
                     </div>
                     <div className="max-w-[800px] h-[700px] w-full m-auto py-16 px-4 relative group">
                         <div style={{backgroundImage: `url(${photos[currentIndex].location})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
