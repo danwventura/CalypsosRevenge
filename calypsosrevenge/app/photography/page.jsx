@@ -26,7 +26,7 @@ export default function Photography () {
             <section id="photography" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font h-screen">
                 <div className="container px-5 py-5 mx-auto text-center lg:px-40">
                     <div className="flex flex-col w-full mb-4">
-                        <h1 className="sm:txt-4xl text-3xl font-medium title-font mb-4 text-white">
+                        <h1 className="lg:txt-5xl text-5xl font-large title-font mb-4 text-white">
                             Live Vibes
                         </h1>
                         {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-based">

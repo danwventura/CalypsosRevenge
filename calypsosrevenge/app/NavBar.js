@@ -11,6 +11,9 @@ export default function NavBar () {
                         </a>
                     </a>
                     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-1 md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+                    <a href="#about" className="mr-5 hover:text-white">
+                            About
+                        </a>
                         <a href="#photography" className="mr-5 hover:text-white">
                             Gallery
                         </a>

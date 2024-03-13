@@ -53,9 +53,6 @@ export default function Booking () {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                        <img alt="gallery" className="rounded-full" src="/img/lauren_headshot.jpg"/>
-                    </div>
                     {/* <form name="contact" className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                             Book me 
