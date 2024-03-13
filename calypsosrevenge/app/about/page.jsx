@@ -10,7 +10,7 @@ export default function About () {
                         </h1>
                     </div>
                 <div className="container py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                    <div className="lg:w-1/2 md:w-1/2 bg-gradient-to-r from-calypsoBlue to-calypsoSky rounded-lg sm:mr-10 p-10 flex items-end  relative lg:txt-2xl text-2xl">
+                    <div className="lg:w-1/2 md:w-1/2 bg-gradient-to-r from-calypsoBlue to-lightgrey rounded-lg sm:mr-10 p-10 flex items-end  relative lg:txt-2xl text-2xl">
                         <h2 className="mb-10 text-white">Calypso&#39;s Revenge is a one-of-a-kind music project that is the brainchild of Lauren and Jude.  Together, they have combined their years of professional stage experience and artistic talents to produce a music experience unlike any other. At its core, the band, is essentially an acoustic duo with the versatility to sound like a full tilt boogie rock band.</h2>
                         {/* <p>With the addition of some very limited music loops, the due sounds like nothing you have ever heard.  Playing blues, rock, Americana, and more, they cover the map from classics like Led Zeppelin and the Beetles to today’s pop sensations such as Adele and Ariana Grande.  Their mashups and unique take on cover tunes really stand out.</p>
                         <p>Lauren also brings some of her “sold and recorded” original songs to the mix which really are quite remarkable.  As a professional songwriter in Nashville, she honed in on her craft and shares a couple of them through out the night.</p>

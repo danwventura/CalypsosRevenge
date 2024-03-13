@@ -4,6 +4,11 @@ import React, {Component} from "react";
 export default function Booking () {
         return(
             <section id="booking" className="relative bg-gradient-to-r from-calypsoBlue to-calypsoSky h-screen">
+                <div className="flex flex-col w-full mb-20 mt-10">
+                        <h1 className="sm:txt-5xl text-5xl font-large title-font mb-4 text-white text-center">
+                            Book Us
+                        </h1>
+                    </div>
                 <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="lg:w-1/2 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe
