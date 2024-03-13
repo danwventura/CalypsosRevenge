@@ -40,7 +40,7 @@ export default function Booking () {
                                     Facebook
                                 </h2>
                                 <a href="https://www.facebook.com/search/top?q=calypso%E2%80%99s%20revenge" className="text-indigo-400 leading-relaxed text-xl">
-                                    Calypso's Revenge
+                                    Calypso&#39;s Revenge
                                 </a>
                             </div>
                             <div className="mb-10 mt-20">

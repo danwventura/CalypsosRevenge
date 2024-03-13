@@ -12,7 +12,7 @@ export default function Videos () {
                             Videos
                         </h1>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-based">
-                            Calypso's Revenge, an original, eclectic cover band
+                            Calypso&#39;s Revenge, an original, eclectic cover band
                         </p>
                     </div>
                     {/* <div className="flex flex-wrap -m-4"> */}
