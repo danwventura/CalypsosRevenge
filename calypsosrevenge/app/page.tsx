@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import NavBar from './NavBar'
+import Hero from './hero/page'
 import About from './about/page'
 import Gallery from './photography/page'
 import Videos from './videos/page'
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <main className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font">
       <NavBar />
+      <Hero />
       <About />
       <Gallery />
       <Videos />
