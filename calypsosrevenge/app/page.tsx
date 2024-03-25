@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import NavBar from './NavBar'
 import Hero from './hero/page'
 import About from './about/page'
