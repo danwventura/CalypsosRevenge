@@ -2,9 +2,17 @@
 'use client'
 import React, {Component} from "react";
 
+const styles = {
+    flexImage: {
+      backgroundImage: `url(/img/waves.jpg)`,
+      backgroundRepeat: `no-repeat`,
+      backgroundSize: 'cover'
+    }
+}
+
 export default function Hero() {
     return(
-        <section className="bg-gradient-to-r from-calypsoBlue to-calypsoSky mt-20 h-screen">
+        <section className="bg-gradient-to-r from-calypsoBlue to-calypsoSky mt-20 h-screen" style={styles.flexImage}>
                 <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                     <div className="mr-auto place-self-center lg:col-span-7">
                         <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Calypso&#39;s Revenge</h1>
@@ -14,7 +22,7 @@ export default function Hero() {
                         </a> 
                     </div>
                     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                        <img className="object-cover object-center rounded" alt="hero" src="/img/logo.jpg" />
+                        <img className="object-cover object-center rounded" alt="hero" src="/img/duo4.jpg" />
                     </div>                
                 </div>
             </section>
