@@ -18,23 +18,23 @@ export default function Videos () {
                     {/* <div className="flex flex-wrap -m-4"> */}
                     <div className="grid grid-cols-2 gap-2 pb-8">
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vzVqALWlMSA?si=VUgMY6OOx-nQHp5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vzVqALWlMSA?si=VUgMY6OOx-nQHp5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>
                         </div>
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RKf9M63sru4?si=7s2aZ4MqO4fTujNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RKf9M63sru4?si=7s2aZ4MqO4fTujNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-2 pb-8">
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/usI5p6AAulM?si=Sx4sMD7hC8V9S5Mf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/usI5p6AAulM?si=Sx4sMD7hC8V9S5Mf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>                        </div>
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2DUKQ6nyCCA?si=SCZNUIvsXZ80_j3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2DUKQ6nyCCA?si=SCZNUIvsXZ80_j3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>                        </div>
                     </div>
                     <div className="grid grid-cols-2 gap-2">
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ol3QyJFUXxU?si=CBw6VAHA0FHj5fj1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ol3QyJFUXxU?si=CBw6VAHA0FHj5fj1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>                        </div>
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ikTGZxX61Hw?si=dq83IOclnxO66i9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ikTGZxX61Hw?si=dq83IOclnxO66i9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreens></iframe>                        </div>
                     </div>
                 </div>
             </section>
