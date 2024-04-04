@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fonts: {
+        
+      },
       colors: {
         'calypsoBlue': '#132227',
         'calypsoSky': '#1A5769',

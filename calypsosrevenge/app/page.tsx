@@ -9,6 +9,12 @@ import Booking from './booking/page'
 
 //https://www.youtube.com/watch?v=RY6B7JSBRRg&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=2
 
+// forumRegular {
+//   font-family: "Forum", serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
 export default function Home() {
   
   return (

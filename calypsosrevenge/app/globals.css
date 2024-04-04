@@ -8,6 +8,8 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allura&family=Forum&display=swap'); */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
