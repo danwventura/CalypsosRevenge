@@ -23,7 +23,7 @@ export default function Photography () {
         }
         return(
             <div>
-            <section id="photography" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font h-screen">
+            <section id="photography" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font h-screen mb-20">
                 <div className="container px-5 py-5 mx-auto text-center lg:px-40">
                     <div className="flex flex-col w-full mb-4">
                         <h1 className="lg:txt-5xl text-5xl font-large title-font mb-4 text-white">
@@ -35,7 +35,7 @@ export default function Photography () {
                             fuga dolore.
                         </p> */}
                     </div>
-                    <div className="max-w-[800px] h-[700px] w-full m-auto py-16 px-4 relative group">
+                    <div className="max-w-[750px] h-[1000px] w-full m-auto py-16 px-4 relative group">
                         <div style={{backgroundImage: `url(${photos[currentIndex].location})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
                         {/*Left Arrow*/}
                         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
@@ -45,7 +45,7 @@ export default function Photography () {
                         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                             <BsChevronCompactRight onClick={nextPhoto}/>
                         </div>
-                        <div className="flex top-4 justify-center py-2 object-top">
+                        <div className="flex top-4 justify-center py-2 object-bottom">
                             {photos.map((photo, photoIndex) => {
                                 <div className="text-2xl cursor-pointer">
                                     <RxDotFilled />

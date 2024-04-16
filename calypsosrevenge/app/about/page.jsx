@@ -16,11 +16,11 @@ export default function About () {
                         <p>Lauren also brings some of her “sold and recorded” original songs to the mix which really are quite remarkable.  As a professional songwriter in Nashville, she honed in on her craft and shares a couple of them through out the night.</p>
                         <p>Calypso&#39;s Revenge delivers a passionate and powerful performance not to be found in your average “bar band” playing the same forty songs every gig.  Their uniquely diverse setlist, superlatively executed, will leave audiences wondering “how do they do it?”</p> */}
                     </div>
-                    <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 pl-10">
-                        <img alt="gallery" className="rounded-full h-72 w-72 object-top" src="/img/lauren_headshot.jpg"/>
+                    <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 pr-20">
+                        <img alt="gallery" className="rounded h-90 w-73 object-top" src="/img/solo2.jpg"/>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                        <img alt="gallery" className="rounded-full h-72 w-72 object-top" src="/img/solo1.JPEG"/>
+                    <div className="lg:w-1/4 md:w-1/4 flex flex-col md:ml-auto w-full pl-20 md:py-8 mt-8 md:mt-0">
+                        <img alt="gallery" className="rounded h-83 w-63 object-top max-h-900" src="/img/solo1.JPEG"/>
                     </div>
                     
                 </div>
