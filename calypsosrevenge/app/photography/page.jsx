@@ -23,7 +23,7 @@ export default function Photography () {
         }
         return(
             <div>
-            <section id="photography" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font h-screen mb-20">
+            <section id="photography" className="text-gray-400 bg-gradient-to-r from-calypsoBlue to-calypsoSky body-font h-1000 mb-20">
                 <div className="container px-5 py-5 mx-auto text-center lg:px-40">
                     <div className="flex flex-col w-full mb-4">
                         <h1 className="lg:txt-5xl text-5xl font-large title-font mb-4 text-white">

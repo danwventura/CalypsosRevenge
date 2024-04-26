@@ -3,7 +3,7 @@ import React, {Component} from "react";
 
 export default function Booking () {
         return(
-            <section id="booking" className="relative bg-gradient-to-r from-calypsoBlue to-calypsoSky h-screen">
+            <section id="booking" className="relative bg-gradient-to-r from-calypsoBlue to-calypsoSky h-800">
                 <div className="flex flex-col w-full mb-20 mt-10">
                         <h1 className="sm:txt-5xl text-5xl font-large title-font mb-4 text-white text-center">
                             Book Us
