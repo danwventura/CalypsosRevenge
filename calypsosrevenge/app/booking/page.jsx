@@ -37,7 +37,7 @@ export default function Booking () {
                                     EMAIL
                                 </h2>
                                 <a className="text-indigo-400 leading-relaxed text-xl">
-                                    laurenannaventura@gmail.com
+                                    calypsosrevenge123@gmail.com
                                 </a>
                             </div>
                             <div className="mb-10 mt-20">
