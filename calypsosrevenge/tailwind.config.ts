@@ -8,14 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fonts: {
-        
-      },
       colors: {
         'calypsoBlue': '#132227',
         'calypsoSky': '#1A5769',
         'calypsoMain': '#122126',
         'calypsoDark': '#122428',
+      },
+      fontFamily: {
+        about: ['Roboto']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
