@@ -27,7 +27,7 @@ export default function Photography () {
                 <div className="container px-5 py-5 mx-auto text-center lg:px-40">
                     <div className="flex flex-col w-full mb-4">
                         <h1 className="lg:txt-5xl text-5xl font-large title-font mb-4 text-white">
-                            Live Vibes
+                            Gallery
                         </h1>
                         {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-based">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
