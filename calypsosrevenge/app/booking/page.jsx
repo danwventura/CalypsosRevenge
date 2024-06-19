@@ -40,7 +40,7 @@ export default function Booking () {
                                     calypsosrevenge123@gmail.com
                                 </a>
                             </div>
-                            <div className="mb-10 mt-20">
+                            <div className="mb-10 mt-20 whitespace-nowrap">
                                 <h2 className="title-font font-semibold text-white tracking-widest text-xl">
                                     Facebook
                                 </h2>

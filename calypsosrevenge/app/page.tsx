@@ -1,6 +1,7 @@
 // import Image from 'next/image'
 import NavBar from './NavBar'
 import Hero from './hero/page'
+import Introducing from './introducing/page'
 import About from './about/page'
 import Gallery from './photography/page'
 import Videos from './videos/page'
@@ -22,6 +23,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <About />
+      <Introducing />
       <Gallery />
       <Videos />
       <Booking />
