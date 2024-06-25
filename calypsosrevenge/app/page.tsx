@@ -2,6 +2,7 @@
 import NavBar from './NavBar'
 import Hero from './hero/page'
 import Introducing from './introducing/page'
+import Covers from './covers/page'
 import About from './about/page'
 import Gallery from './photography/page'
 import Videos from './videos/page'
@@ -24,6 +25,7 @@ export default function Home() {
       <Hero />
       <About />
       <Introducing />
+      <Covers />
       <Gallery />
       <Videos />
       <Booking />

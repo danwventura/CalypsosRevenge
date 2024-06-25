@@ -12,7 +12,7 @@ export default function Introducing () {
                 <div className="grid grid-cols-1 gap-4 pb-8 mt-20">
                     <div className="flex justify-center items-center">
                         <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vzVqALWlMSA?si=dGV4N6ZCdurNGub0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vzVqALWlMSA?si=dGV4N6ZCdurNGub0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>

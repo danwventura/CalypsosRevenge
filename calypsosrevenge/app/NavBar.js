@@ -14,6 +14,9 @@ export default function NavBar () {
                         <a href="#introducing" className="mr-5 hover:text-white">
                             Introducing Calypso&#39;s Revenge
                         </a>
+                        <a href="#covers" className="mr-5 hover:text-white">
+                            Original Covers
+                        </a>
                         <a href="#photography" className="mr-5 hover:text-white">
                             Gallery
                         </a>
