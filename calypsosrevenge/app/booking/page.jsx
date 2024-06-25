@@ -36,7 +36,7 @@ export default function Booking () {
                                 <h2 className="title-font font-semibold text-white tracking-widest text-xl">
                                     EMAIL
                                 </h2>
-                                <a className="text-indigo-400 leading-relaxed text-xl">
+                                <a className="text-indigo-400 leading-relaxed text-xl" href="https://mail.google.com/mail/?view=cm&to=calypsosrevenge123@gmail.com&su=Booking" target="_blank">
                                     calypsosrevenge123@gmail.com
                                 </a>
                             </div>
