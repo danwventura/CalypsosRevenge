@@ -13,6 +13,8 @@ const config: Config = {
         'calypsoSky': '#1A5769',
         'calypsoMain': '#122126',
         'calypsoDark': '#122428',
+        'heroText': '#786657',
+        'heroTextShadow': '#DFF0D8'
       },
       fontFamily: {
         about: ['Roboto']
