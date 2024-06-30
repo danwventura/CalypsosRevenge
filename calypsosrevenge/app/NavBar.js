@@ -20,9 +20,9 @@ export default function NavBar () {
                         <a href="#photography" className="mr-5 hover:text-white">
                             Gallery
                         </a>
-                        <a href="#videos" className="mr-5 hover:text-white">
+                        {/* <a href="#videos" className="mr-5 hover:text-white">
                             Videos
-                        </a>
+                        </a> */}
                         <a href="#booking" className="mr-5 hover:text-white">
                             Book Us
                         </a>
