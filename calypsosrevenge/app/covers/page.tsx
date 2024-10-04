@@ -13,12 +13,19 @@ export default function Covers () {
                         </h1>
                     </div>
                     {/* <div className="flex flex-wrap -m-4"> */}
-                    <div className="grid grid-cols-2 gap-2 pb-8">
-                        <div>
-                            <iframe width="460" height="259" src="https://www.youtube.com/embed/v0kO1UYAL4M?si=x7llap65mlAoETgW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    {/* <div className="grid grid-cols-2 gap-2 pb-8">*/}
+                    <div className="grid grid-cols-1 pb-8 mt-20">
+                        <div className="flex justify-center items-center">
+                            <div>
+                                <iframe width="460" height="259" src="https://www.youtube.com/embed/v0kO1UYAL4M?si=x7llap65mlAoETgW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            </div>
                         </div>
-                        <div>
-                            <iframe width="460" height="259" src="https://www.youtube.com/embed/y_fb7nGU2OY?si=bkHaH6XLGKhx-7d7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    </div>
+                    <div className="grid grid-cols-1 gap-4 pb-8 mt-20">
+                        <div className="flex justify-center items-center">
+                            <div>
+                                <iframe width="460" height="259" src="https://www.youtube.com/embed/y_fb7nGU2OY?si=bkHaH6XLGKhx-7d7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            </div>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-4 pb-8 mt-20">

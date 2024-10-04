@@ -23,6 +23,9 @@ export default function NavBar () {
                         {/* <a href="#videos" className="mr-5 hover:text-white">
                             Videos
                         </a> */}
+                        <a href="#calendar" className="mr-5 hover:text-white">
+                            Events Calender
+                        </a>
                         <a href="#booking" className="mr-5 hover:text-white">
                             Book Us
                         </a>
