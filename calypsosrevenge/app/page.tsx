@@ -6,6 +6,7 @@ import Covers from './covers/page'
 import About from './about/page'
 import Gallery from './photography/page'
 import Videos from './videos/page'
+import Calendar from './calendar/page'
 import Booking from './booking/page'
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Covers />
       <Gallery />
       {/* <Videos /> */}
+      <Calendar />
       <Booking />
     </main>
   )
